@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWA Compare App</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <meta name="theme-color" content="#056030"/>
+  <link rel="manifest" href="manifest.json">
+  <script src="scripts.js?"></script>
+</head>
+<body>
+
+  <div class="page center-vertically" id="home-page">
+    <div class="container">
+      <h1>PWA Compare App</h1>
+      <button class="action-btn" onclick="testGeolocation()">Test Geolocation</button>
+    </div>
+  </div>
+
+  <div class="page center-vertically hidden" id="geolocation-page">
+    <div class="container">
+      <p id="gps-text">Measuring GPS...</p>
+    </div>
+  </div>
+
+</body>
+</html>

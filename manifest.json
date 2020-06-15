@@ -1,0 +1,18 @@
+{
+  "name": "PWA Compare App",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/pwa-tests/?source=pwa",
+  "display": "standalone",
+  "theme_color": "#056030"
+}
